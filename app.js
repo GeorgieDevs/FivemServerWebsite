@@ -31,13 +31,13 @@ const highlightMenu = () => {
     teamMenu.classList.remove('highlight')
     return
 
-    } else if (window.innerWidth > 960 && scrollPos < 2050) {
+    } else if (window.innerWidth > 960 && scrollPos < 1850) {
         teamMenu.classList.add('highlight')
         aboutMenu.classList.remove('highlight')
         socialMenu.classList.remove('highlight')
         return
 
-    } else if (window.innerWidth > 960 && scrollPos < 2845) {
+    } else if (window.innerWidth > 960 && scrollPos < 2545) {
     socialMenu.classList.add('highlight')
     teamMenu.classList.remove('highlight')
     return
